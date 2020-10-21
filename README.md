@@ -9,7 +9,7 @@ A bug report has already been [submitted](https://bugs.webkit.org/show_bug.cgi?i
 Hopefully if the bug is fixed in newer versions of Webkit, this function would 
 become obsolete.
 
-`IsWebKit()` function could also be copied from below
+`isWebKit()` function could also be copied from below
 
 ```
 function isWebKit(){
