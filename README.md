@@ -44,8 +44,7 @@ function isWebKit(){
     document.body.removeChild(s);
     let tYMid = tBB.y + (tBB.height / 2);
     let rYMid = rBB.y + (rBB.height / 2);
-    //console.log(tYMid);
-    //console.log(rYMid);
+
     let epsilon = 1e-8;
     let diff = Math.abs(tYMid - rYMid);
     if (diff > epsilon){
